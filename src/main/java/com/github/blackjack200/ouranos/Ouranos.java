@@ -64,7 +64,7 @@ public class Ouranos {
     @Getter
     private static Ouranos ouranos;
     @Getter
-    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);
+    private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(4);
     @Getter
     private final EventLoopGroup bossGroup;
     @Getter
